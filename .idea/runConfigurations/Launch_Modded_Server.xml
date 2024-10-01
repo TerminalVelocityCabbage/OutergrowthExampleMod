@@ -2,7 +2,7 @@
   <configuration default="false" name="Launch Modded Server" type="Application" factoryName="Application">
     <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-    <option name="MAIN_CLASS_NAME" value="com.terminalvelocitycabbage.outergrowth.server.Server" />
+    <option name="MAIN_CLASS_NAME" value="com.terminalvelocitycabbage.outergrowth.server.OutergrowthServer" />
     <module name="OutergrowthExampleMod.Server.main" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Outergrowth" />
     <method v="2">

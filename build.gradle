@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-apply from: file('TVETest/TerminalVelocityEngine2/gradleScripts/repositories.gradle')
+apply from: file('Outergrowth/TerminalVelocityEngine2/gradleScripts/repositories.gradle')
 
 sourceSets {
     client {

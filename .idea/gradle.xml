@@ -10,10 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/TVETest/GameClient" />
-            <option value="$PROJECT_DIR$/TVETest/GameCommon" />
-            <option value="$PROJECT_DIR$/TVETest/GameServer" />
-            <option value="$PROJECT_DIR$/TVETest/TerminalVelocityEngine2" />
+            <option value="$PROJECT_DIR$/Outergrowth/Client" />
+            <option value="$PROJECT_DIR$/Outergrowth/Common" />
+            <option value="$PROJECT_DIR$/Outergrowth/Server" />
+            <option value="$PROJECT_DIR$/Outergrowth/TerminalVelocityEngine2" />
           </set>
         </option>
       </GradleProjectSettings>

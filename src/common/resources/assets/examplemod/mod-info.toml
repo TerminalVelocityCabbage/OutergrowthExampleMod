@@ -1,7 +1,7 @@
 [identity]
-namespace = "testmod"
-name = "Test Mod"
-description = "A test mod to show the features of the TVE modding system & inherent modding api."
+namespace = "examplemod"
+name = "Outergrowth Example Mod"
+description = "An example mod showcasing how to use the Outergrowth & TVE Modding API"
 version = "1.0.0-alpha.1"
 
 [authors]

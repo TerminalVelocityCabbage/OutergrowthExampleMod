@@ -1,4 +1,4 @@
-package com.terminalvelocitycabbage.testmod.client;
+package com.terminalvelocitycabbage.outergrowth.client;
 
 import com.terminalvelocitycabbage.engine.client.ClientBase;
 import com.terminalvelocitycabbage.engine.debug.Log;
@@ -11,21 +11,21 @@ import com.terminalvelocitycabbage.engine.mod.ModClientEntrypoint;
 import com.terminalvelocitycabbage.engine.mod.ModEntrypoint;
 import com.terminalvelocitycabbage.engine.registry.Identifier;
 import com.terminalvelocitycabbage.engine.translation.Language;
-import com.terminalvelocitycabbage.game.client.registry.GameLocalizedTexts;
+import com.terminalvelocitycabbage.outergrowth.client.registry.GameLocalizedTexts;
 import com.terminalvelocitycabbage.templates.events.LocalizedTextKeyRegistrationEvent;
 import com.terminalvelocitycabbage.templates.events.ResourceRegistrationEvent;
 import com.terminalvelocitycabbage.templates.events.ResourceSourceRegistrationEvent;
 import com.terminalvelocitycabbage.templates.events.ServerLifecycleEvent;
 
-import static com.terminalvelocitycabbage.testmod.common.TestMod.ID;
+import static com.terminalvelocitycabbage.examplemod.common.ExampleMod.ID;
 
 @ModClientEntrypoint()
-public class TestModClientEntrypoint extends ModEntrypoint {
+public class ExampleModClient extends ModEntrypoint {
 
     Identifier modLocalizedText;
     Identifier testModResourceSource;
 
-    public TestModClientEntrypoint() {
+    public ExampleModClient() {
         super(ID);
     }
 
