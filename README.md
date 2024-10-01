@@ -1,2 +1,1 @@
-# OutergrowthExampleMod
-An Example Mod Repository for Outergrowth
+# Outergrowth Example Mod

@@ -1,0 +1,13 @@
+rootProject.name = 'OutergrowthExampleMod'
+
+include(':TerminalVelocityEngine2')
+project(':TerminalVelocityEngine2').projectDir = file('Outergrowth/TerminalVelocityEngine2')
+
+include(':Client')
+project(':Client').projectDir = file('Outergrowth/Client')
+
+include(':Common')
+project(':Common').projectDir = file('Outergrowth/Common')
+
+include(':Server')
+project(':Server').projectDir = file('Outergrowth/Server')

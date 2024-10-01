@@ -1,0 +1,57 @@
+plugins {
+    id 'java'
+}
+
+apply from: file('TVETest/TerminalVelocityEngine2/gradleScripts/repositories.gradle')
+
+sourceSets {
+    client {
+        java {
+            srcDirs("src/client")
+        }
+    }
+    server {
+        java {
+            srcDirs("src/server")
+        }
+    }
+    common {
+        java {
+            srcDirs("src/common")
+        }
+    }
+}
+
+configurations {
+    serverImplementation.extendsFrom(commonImplementation)
+    clientImplementation.extendsFrom(commonImplementation)
+}
+
+dependencies {
+
+    //Client Game Deps
+    clientImplementation project(':Client')
+    clientImplementation sourceSets.common.output
+
+    //Server Game Deps
+    serverImplementation project(':Server')
+    serverImplementation sourceSets.common.output
+
+    //Common Deps
+    commonImplementation project(':Common')
+}
+
+jar {
+    from sourceSets.client.output
+    from sourceSets.server.output
+    from sourceSets.common.output
+}
+
+tasks.register('devModJar', Jar) {
+    destinationDirectory.set(file("/Outergrowth/mods"))
+
+    with jar
+}
+
+group 'com.terminalvelocitycabbage.examplemod'
+version '1.0-SNAPSHOT'
