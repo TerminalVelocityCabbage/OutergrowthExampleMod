@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Outergrowth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Outergrowth/TerminalVelocityEngine2" vcs="Git" />
   </component>
 </project>
